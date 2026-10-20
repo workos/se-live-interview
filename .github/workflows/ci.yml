@@ -24,6 +24,14 @@ jobs:
         with:
           token: ${{ secrets.PUBLIC_SOCKET_FIREWALL_TOKEN }}
           allow-external-fork-fallback: true
-      - run: npm ci
+      - run: npm ci --ignore-scripts
+      - run: npm audit --audit-level=moderate
       - run: npm run lint
+      - run: npm run typecheck
       - run: npm run build
+        env:
+          NEXT_TELEMETRY_DISABLED: 1
+          WORKOS_CLIENT_ID: client_SYNTHETIC
+          WORKOS_API_KEY: sk_SYNTHETIC
+          WORKOS_COOKIE_PASSWORD: synthetic-cookie-password-for-build-only-0000
+          NEXT_PUBLIC_WORKOS_REDIRECT_URI: http://localhost:3000/callback
