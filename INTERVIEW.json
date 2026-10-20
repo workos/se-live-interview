@@ -1,0 +1,7 @@
+{
+  "interviewVersion": "se-interview-v1",
+  "stage": "live",
+  "durationMinutes": 75,
+  "entryPoint": "README.md",
+  "prompt": "LIVE.md"
+}
