@@ -18,6 +18,10 @@ This is the standard WorkOS SE interview, version `se-interview-v1`. Read [LIVE.
 
 Keep the app and credentials private. Never commit `.env.local`, put keys in browser code, or paste secrets into AI prompts. You do not need Platform credentials. Use only the demo accounts and designated invitation inbox supplied by the interviewer.
 
+## Your WorkOS sandbox
+
+You can and should explore your assigned WorkOS sandbox in the Dashboard during the exercise. Your interviewer will provide Dashboard access alongside the app credentials; the credential item includes a `dashboard_url`. Use only that assigned sandbox. The supplied demo logins are for the app, and your interviewer will explain how to access the Dashboard separately. If access is missing, contact your interviewer.
+
 ## What happens
 
 The live interview is **60 minutes total**:

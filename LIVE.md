@@ -26,7 +26,7 @@ Priya
 
 60 minutes total: approximately 10 minutes clarifying the email, 35 minutes building, 15 minutes verifying, with introductions and wrap-up around that. The interviewer can help you navigate unfamiliar tooling; asking a question is not a failure.
 
-You may use WorkOS's User Management widget or direct supported API calls. Explain your choice. Adding a supported package during the session is allowed. An authorized action needs more than a hidden button.
+You can and should explore your assigned WorkOS sandbox in the Dashboard during the exercise; your interviewer provides access alongside the app credentials. You may use WorkOS's User Management widget or direct supported API calls. Explain your choice. Adding a supported package during the session is allowed. An authorized action needs more than a hidden button.
 
 Focus on a small working slice using the provided app. Removal, role editing, SSO setup, custom styling, deployment, and a complete settings application are out of scope. Show what you verified and be direct about what remains unfinished.
 
