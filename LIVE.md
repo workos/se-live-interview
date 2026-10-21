@@ -2,19 +2,21 @@
 
 **From:** Priya Shah, Head of Platform, Meridian Analytics
 
-**Subject:** Customer-managed teams
+**Subject:** Letting customers manage their own teams in Meridian
 
 Hi,
 
-Our support team currently adds and removes users for every customer. We need Acme's workspace admins to manage their own members inside Meridian.
+Our support team handles every request to add or remove someone from a customer’s workspace. We’d like to let customers do this themselves inside Meridian.
 
-Using the provided app, show how an Acme admin could **view members and invite a colleague** without contacting support. Ordinary members must not have administrative access, and nobody should be able to manage another customer's workspace.
+For a first pass, we’re thinking Acme’s admins could see who’s already in their workspace and invite a colleague. The other account-management features can wait. Only admins should be able to do this, and they should only have access to their own company’s workspace.
 
-Our engineers suggested calling WorkOS directly from the browser with our API key to avoid adding backend work. Please assess that approach and recommend how we should proceed.
+One of our engineers suggested calling WorkOS from the browser using our API key so we wouldn’t need to add anything on the backend. Would that work, or would you recommend a different approach?
 
-For today, we really just want to see a small working slice. We don't need to prove removal, role editing, SSO setup, custom styling, deployment, or a complete settings application. We can discuss those later.
+Could you walk us through what this would look like in our app? We’re mainly trying to understand how much work is involved and whether there’s anything we’re overlooking.
 
-Please ask about anything you need to clarify. Show us what you verified and be direct about what remains unfinished.
+Let me know what else would be helpful ahead of the call.
+
+Thanks,
 
 Priya
 
@@ -25,5 +27,7 @@ Priya
 60 minutes total: approximately 10 minutes clarifying the email, 35 minutes building, 15 minutes verifying, with introductions and wrap-up around that. The interviewer can help you navigate unfamiliar tooling; asking a question is not a failure.
 
 You may use WorkOS's User Management widget or direct supported API calls. Explain your choice. Adding a supported package during the session is allowed. An authorized action needs more than a hidden button.
+
+Focus on a small working slice using the provided app. Removal, role editing, SSO setup, custom styling, deployment, and a complete settings application are out of scope. Show what you verified and be direct about what remains unfinished.
 
 At time, stop; we assess the work and reasoning you can demonstrate, not just completion.
