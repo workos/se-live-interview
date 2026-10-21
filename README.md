@@ -1,6 +1,6 @@
 # Meridian - live interview starter
 
-This is the standard WorkOS SE interview, version `se-interview-v1`. Read [LIVE.md](LIVE.md) ahead of time if you like, but **do not implement it before the session**.
+This is the standard WorkOS SE interview, version `se-interview-v1`. Recruiting will share this repo and [LIVE.md](LIVE.md) shortly before your interview. **Do not implement the assignment before the session**.
 
 ## Before the call: at most 15 minutes
 
